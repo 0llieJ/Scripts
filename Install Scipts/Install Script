@@ -1,0 +1,52 @@
+!#/bin/bash
+#Install Script
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Fresh Install of Programs
+sudo apt update && sudo apt get dist-upgrade -y
+sudo apt install net-tools
+sudo apt install neofetch
+sudo apt install neovim 
+sudo apt install tmux 
+sudo apt install latte-dock
+sudo apt install tilix
+sudo apt install virtulbox
+sudo apt install bleachbit
+sudo apt install git
+sudo apt install gdebi
+sudo apt install thunderbird
+sudo apt install figlet
+sudo apt install lolcat
+sudo apt install python3-pip
+sudo apt install flatpak
+sudo apt install  plasma-discover-flatpak-backend
+sudo apt install -y openvpn dialog python3-pip python3-setuptools && sudo pip3 install protonvpn-cli
+
+# Update and Refresh
+sudo apt get update -y && sudo apt dist-upgrade && sudo apt autoremove -y
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Install configuration profiles for Zsh, Neovim, Bash
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Install other and different types of packages.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Flatpak configuration
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+
+
+
+# Flatpak plugin if using Gnome
+# sudo apt install gnome-software-plugin-flatpak && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepoI
+
+# Arch Linux program configuration
+# sudo pacman -S flatpak
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Applications I can't currently put in a script
+# Brave, KeepassXC, Openrazer, RTL Drivers, Dracula theme, Etcher, Protonbridge, Fish Prompt, Cryptomator, AppImage Launcher, Appoutlet, Stacer, zsh
+# sudo pacman -S openvpn dialog python-pip python-setuptools
