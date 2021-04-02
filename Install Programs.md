@@ -8,6 +8,8 @@ Tilix -- / Termite
 
 Cryptomator
 
+VScodium
+
 Brave
 
 Virtualbox --
